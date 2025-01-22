@@ -1,0 +1,73 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+  margin: 2rem;
+}
+.contentContainer{
+  display: flex;
+  flex-direction: row;
+ 
+}
+.mainContainer h1{
+  font-size: 3.5rem;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.mainContainer span{
+  color: red;
+}
+
+li{
+  list-style-type: none;
+}
+
+
+
+.listOne li{
+  padding: 1.9rem;
+  font-size: 1.8em;
+  margin: 1em;
+  color: red;
+  font-weight: 500;
+  border: 2px solid white;
+  box-shadow: 2px 2px lightgrey;
+  border-radius: 2rem;
+  text-align: left;
+}
+
+.listOne span{
+  color: black;
+}
+
+
+.listTwo li{
+  padding: 1.5rem;
+  margin: 1em;
+}
+
+
+.listThree {
+  border: 2px solid white;
+  box-shadow: 2px 2px lightgrey;
+  border-radius: 2rem;
+  padding: 0.9rem;
+}
+
+
+
+.listThree li{
+  padding: 1rem;
+  margin: 1em;
+}
+
+.listThree p{
+  padding: 1rem;
+  font-size: 1.7rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}
