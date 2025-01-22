@@ -1,1 +1,3 @@
 # Improving-CSS
+
+**Static Page**
